@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+}
+
+nav {
+    display: block;
+    padding-right: 10px;
+    background-color: aqua;
+    position: relative;
+}
+
+ul {
+    max-width: 1280px;
+    list-style: none;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
+
+nav ul li {
+    float: left;
+    line-height: 70px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+div.column {
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(40, 97, 119);
+    display: flex;
+    /* position: relative; */
+
+}
+
+div.mountains {
+    height: 100vh;
+    width: 70vw;
+    background-image: url(./photos/mountains.jpg);
+    background-size: cover;
+    /* z-index: -1; */
+}
+
+.title {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    height: 50vh;
+    width: 45vw;
+    /* z-index: 1; */
+    color: #fff;
+}
+
+h1 {
+    font-size: 7.5em;
+    text-transform: uppercase;
+}
+
+div.place {
+
+    height: 15vh;
+    width: 80vw;
+}
+
+div h2 {
+    font-size: 7.5rem;
+    line-height: 15vh;
+    width: 50vw;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    mix-blend-mode: exclusion;
+    /* color: rgb(110, 93, 93); */
+    color: #ac9797;
+    /* color: rgb(110,93,93) */
+}
+
+div.description p {
+    width: 35vw;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 8vw;
+    height: 4vh;
+    text-transform: uppercase;
+    font-weight: 520;
+    font-size: 0.8rem;
+}
